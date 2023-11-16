@@ -1,6 +1,10 @@
 #include "main.h"
 
-
+/**
+ * _puts_recuresion * prints a string, follwed by a new line
+ * @s: pounter to the sstring
+ * return: void
+ */
 
 void _puts_recursion(char *s)
 {
