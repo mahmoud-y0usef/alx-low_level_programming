@@ -7,6 +7,7 @@
  *
  * Return: the natural square root.
  */
+
 int square_root(int n, int r)
 {
 	if (r * r == n)
@@ -27,6 +28,7 @@ int square_root(int n, int r)
  *
  * Return: natural square root of a number.
  */
+
 int _sqrt_recursion(int n)
 {
 	int r = 2;

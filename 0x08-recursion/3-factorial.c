@@ -6,6 +6,7 @@
  *
  * Return: the factorial of a given number.
  */
+
 int factorial(int n)
 {
 	int result = n;

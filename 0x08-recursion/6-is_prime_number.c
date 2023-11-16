@@ -7,6 +7,7 @@
  *
  * Return: if a number is divisible.
  */
+
 int divisible_num(int n, int d)
 {
 	if (n % d == 0)
@@ -29,6 +30,7 @@ int divisible_num(int n, int d)
  *
  * Return: a prime number.
  */
+
 int is_prime_number(int n)
 {
 	int div = 2;
