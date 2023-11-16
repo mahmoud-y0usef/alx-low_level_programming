@@ -7,21 +7,20 @@
  *
  * Return: if a number is divisible.
  */
-
 int divisible_num(int n, int d)
 {
-    if (n % d == 0)
-    {
-        return (0);
-    }
-    else if (d == n / 2)
-    {
-        return (1);
-    }
-    else
-    {
-        return (divisible_num(n, d + 1));
-    }
+	if (n % d == 0)
+	{
+		return (0);
+	}
+	else if (d == n / 2)
+	{
+		return (1);
+	}
+	else
+	{
+		return (divisible_num(n, d + 1));
+	}
 }
 
 /**
@@ -30,19 +29,18 @@ int divisible_num(int n, int d)
  *
  * Return: a prime number.
  */
-
 int is_prime_number(int n)
 {
-    int div = 2;
+	int div = 2;
 
-    if (n <= 1)
-    {
-        return (0);
-    }
-    else if (n >= 2 && n <= 3)
-    {
-        return (1);
-    }
-    else
-        return (divisible_num(n, div));
+	if (n <= 1)
+	{
+		return (0);
+	}
+	else if (n >= 2 && n <= 3)
+	{
+		return (1);
+	}
+	else
+		return (divisible_num(n, div));
 }

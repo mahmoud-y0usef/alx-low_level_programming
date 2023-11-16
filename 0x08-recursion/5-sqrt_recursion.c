@@ -7,19 +7,18 @@
  *
  * Return: the natural square root.
  */
-
 int square_root(int n, int r)
 {
-    if (r * r == n)
-    {
-        return (r);
-    }
-    else if (r == n / 2)
-    {
-        return (-1);
-    }
-    else
-        return (square_root(n, r + 1));
+	if (r * r == n)
+	{
+		return (r);
+	}
+	else if (r == n / 2)
+	{
+		return (-1);
+	}
+	else
+		return (square_root(n, r + 1));
 }
 
 /**
@@ -28,19 +27,18 @@ int square_root(int n, int r)
  *
  * Return: natural square root of a number.
  */
-
 int _sqrt_recursion(int n)
 {
-    int r = 2;
+	int r = 2;
 
-    if (n == 1)
-    {
-        return (1);
-    }
-    else if (n < 0)
-    {
-        return (-1);
-    }
-    else
-        return (square_root(n, r));
+	if (n == 1)
+	{
+		return (1);
+	}
+	else if (n < 0)
+	{
+		return (-1);
+	}
+	else
+		return (square_root(n, r));
 }
