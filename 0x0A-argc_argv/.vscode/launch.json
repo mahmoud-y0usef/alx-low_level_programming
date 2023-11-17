@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/mahmo/OneDrive/Desktop/alx/alx-low_level_programming/0x08-recursion",
-      "program": "c:/Users/mahmo/OneDrive/Desktop/alx/alx-low_level_programming/0x08-recursion/build/Debug/outDebug",
+      "cwd": "c:/Users/mahmo/OneDrive/Desktop/alx/alx-low_level_programming/0x0A-argc_argv",
+      "program": "c:/Users/mahmo/OneDrive/Desktop/alx/alx-low_level_programming/0x0A-argc_argv/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
